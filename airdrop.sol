@@ -151,7 +151,7 @@ contract TokenERC20 is ERC20Interface, Owned{
   }
 }
 
-contract wShiba is TokenERC20 {
+contract AIRDROP is TokenERC20 {
 
   
   uint256 public aSBlock; 
