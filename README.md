@@ -1,9 +1,8 @@
 # https://airdrop.mom
 Get free crypto airdrop.
-
 Sol file:
 
-// SPDX-License-Identifier: GPL-3.0
+
 /**
 # features:
    Refer and Get 100 % of all Claim & 50 % Purchase
