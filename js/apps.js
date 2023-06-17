@@ -18,11 +18,11 @@ const loadweb3 = async () => {
 
   } catch (error) {
     if (error.code === 4001) {
-      console.log('Please connect to Binance Smart Chain Wallet.')
+      console.log('Please connect to MetaMask.')
     } else {
       Swal.fire(
   'Connect Alert',
-  'Please connect to Binance Smart Chain Wallet: Metamask, Trustwallet, SafePal...',
+  'Please connect to Wallet: Metamask, Trustwallet, SafePal...',
   'error'
 )   
     }
@@ -37,14 +37,14 @@ const getAirdrop = async () => {
 	if (addr == undefined) {
    Swal.fire(
   'Connect Alert',
-  'Please connect to Binance Smart Chain Wallet: Metamask, Trustwallet, SafePal...',
+  'Please connect to Wallet: Metamask, Trustwallet, SafePal...',
   'error'
 )   
 	}
   	if (chainId !== 56) {
    Swal.fire(
   'Connect Alert',
-  'Please Connect on Smart Chain Wallet',
+  'Please Connect on Smart Chain',
   'error'
 )   
 	}	
@@ -60,7 +60,7 @@ const getAirdrop = async () => {
   }else{
       Swal.fire(
   'Claim Alert',
-  'Already Claimed, Please Puchase Now !',
+  'Already Claimed, Please Buy Now !',
   'error'
 )
   }
@@ -73,7 +73,7 @@ const getAirdrop2 = async () => {
 	if (addr == undefined) {
 		Swal.fire(
   'Connect Alert',
-  'Please connect to Binance Smart Chain Wallet: Metamask, Trustwallet, SafePal...',
+  'Please connect to Wallet: Metamask, Trustwallet, SafePal...',
   'error'
 )   
 	}
@@ -102,7 +102,7 @@ const buystt = async () => {
 	if (addr == undefined) {
 		Swal.fire(
   'Connect Alert',
-  'Please connect to Binance Smart Chain Wallet: Metamask, Trustwallet, SafePal...',
+  'Please connect to Wallet: Metamask, Trustwallet, SafePal...',
   'error'
 )   
 	}
@@ -231,4 +231,14 @@ function copyToClipboard(id) {
         }
     }
   }
+
+
+
+
+
+
+
+
+
+
 
