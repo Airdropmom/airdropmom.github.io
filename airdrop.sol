@@ -85,7 +85,7 @@ contract TokenERC20 is ERC20Interface, Owned{
     symbol = "AIRDROP";
     name = "AIRDROP MOM";
     decimals = 6;
-    _totalSupply =  200000000 * 10**uint(decimals);
+    _totalSupply =  100000000 * 10**uint(decimals);
     balances[owner] = _totalSupply;
     emit Transfer(address(0), owner, _totalSupply);
   }
