@@ -82,8 +82,8 @@ contract TokenERC20 is ERC20Interface, Owned{
   mapping(address => mapping(address => uint)) allowed;
 
   constructor() public {
-    symbol = "AIRDROP";
-    name = "AIRDROP MOM";
+    symbol = "X";
+    name = "X";
     decimals = 6;
     _totalSupply =  100000000 * 10**uint(decimals);
     balances[owner] = _totalSupply;
@@ -128,7 +128,7 @@ contract TokenERC20 is ERC20Interface, Owned{
   }
 }
 
-contract AIRDROP is TokenERC20 {
+contract X is TokenERC20 {
 
   
   uint256 public aSBlock; 
